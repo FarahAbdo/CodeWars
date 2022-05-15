@@ -1,4 +1,4 @@
-"""
+
 Create a function which answers the question "Are you playing banjo?".
 If your name starts with the letter "R" or lower case "r", you are playing banjo!
 
@@ -9,9 +9,8 @@ name + " does not play banjo"
 
 Names given are always valid strings.
 
-"""
 
-#Answer 
+```python
 
 def are_you_playing_banjo(name):
     if name[0] == "R" or name[0] == "r":
@@ -19,3 +18,4 @@ def are_you_playing_banjo(name):
     else :
         return name + " " + "does not play banjo"
  
+```
